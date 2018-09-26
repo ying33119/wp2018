@@ -1,0 +1,128 @@
+body {
+  background-color: #FFFFFE;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#menu {
+  margin-top: 45vh;
+  width: 40%;
+}
+
+#camera {
+  width: 70%;
+}
+
+h2 {
+  margin-top: 5vh;
+  display: inline-block;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+p {
+    font-size: 13px;
+}
+
+.leftsidebar {
+  float:left;
+  width: 5vw;
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
+  left: 5vw;
+  z-index: 1;
+  width: 80vw;
+  height: 90vh;
+  background-image: url("https://i.imgur.com/ECHhhst.jpg");
+  background-size: cover;
+  color: #FFFFFE;
+}
+
+.header {
+  margin-left: 5%;
+  height: 10%;
+}
+
+.introduction {
+  margin-left: 52%;
+  height: 15%;
+}
+
+.introduction h3 {
+  margin-top: 4vh;
+}
+
+.main {
+  height: 60%;
+}
+
+.section {
+  height: 15%;
+}
+
+.rightsidebar {
+  float:right;
+  position: relative;
+  z-index: 2;
+  width: 15vw;
+  height: 100vh;
+  background-color: #F9DFA7;
+  color: #A3A49E;
+}
+
+.part {
+  max-width: 30%;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.title {
+  display: inline-block;
+}
+
+.sectionbar {
+  display: inline-block;
+  margin-right: -6px;
+  color: #414F5B;
+  width: 20%;
+  height: 100%;
+}
+
+.bartext {
+  display: inline-block;
+  margin: 12% 0;
+}
+
+#lefttitle {
+  opacity: 0.75;
+  font-size: 200px;
+}
+
+#rightitle {
+  font-size: 46px;
+}
+
+.main p {
+  font-size: 17px;
+  max-width: 50%;
+}
+
+#section1 {
+  background-color: #F9DFA7;
+}
+
+#section2 {
+  background-color: #FFFFFE;
+}
